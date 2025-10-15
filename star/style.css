@@ -1,0 +1,28 @@
+
+@font-face {
+
+  font-family: 'medium';
+  src: url('font/BespokeSerif_Complete/Fonts/WEB/fonts/BespokeSerif-Medium.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+
+}
+
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(245deg, #11cc81, #11a191);
+    overflow: hidden;
+}
+.text h2{
+
+    font-size: 250px;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'medium';
+}

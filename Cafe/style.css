@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: a;
+    src: url("font/Zina_Complete/Fonts/WEB/fonts/Zina-Regular.woff");
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(445deg , #d49b3a ,#c26d04c9) ;
+    overflow: hidden;
+}
+.text{
+
+    color: aliceblue;
+    font-family: a;
+    font-size: 200px;
+    letter-spacing: 30px;
+    margin: 0;
+}

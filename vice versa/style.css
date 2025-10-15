@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'medium';
+    src: url("font/Boska_Complete/Fonts/WEB/fonts/Boska-Medium.ttf");
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(245deg , rgb(254, 211, 151) , rgb(255, 221, 163));
+    overflow: hidden;
+}
+.text h1{
+
+    font-size: 240px;
+    color: rgb(94, 40, 7);
+    font-family: 'medium';
+}

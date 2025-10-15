@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'must';
+    src: url('font/Black Mustang.ttf');
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(15, 15, 15);
+    overflow: hidden;
+}
+.text{
+
+    font-size: 140px;
+    color: rgb(255, 225, 77);
+    font-family: 'must';
+}
