@@ -11,4 +11,4 @@ function randomNumber(btn, min, max) {
     btn.style.borderRadius = "8px";
     btn.style.cursor = "pointer";
 }
-  
+
