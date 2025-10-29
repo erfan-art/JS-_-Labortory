@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(233, 233, 233);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    min-height: 100vh;
+}
+.list-slider{
+
+    position: relative;
+    width: 700px;
+    height: 400px;
+    border-radius: 40px;
+    box-shadow: 0 24px 30px rgba(0, 0, 0, 0.558);
+
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.list-slider .images img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-button-next ,.swiper-button-prev{
+
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 30px;
+    background-color: rgba(15, 15, 15, 0.793);
+    border: 2px solid white;
+    transition: .25s;
+}
+.swiper-button-next::after , .swiper-button-prev::after{
+
+    font-size: 24px !important;
+    color: #ffffff;
+    
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+
+    background-color: #ffffff;
+    box-shadow: 0 3px 20px rgba(255, 255, 255, 0.545);
+    transform: scale(1.1);
+    transition: .25s;
+}
+.swiper-button-next:active, .swiper-button-prev:active{
+
+    transform: scale(0.90);
+    background-color: #e1e0e0;
+    border: 2px solid #e1e0e0;
+}
+.swiper-button-next:hover::after, .swiper-button-prev:hover::after{
+
+    color: black;
+}
+
+.thumbnails img {
+  width: 80px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.thumbnails img:hover {
+  opacity: 1;
+}
+
+.thumbnails img.active-thumb {
+  opacity: 1;
+  border-color: #fafafa;
+}
