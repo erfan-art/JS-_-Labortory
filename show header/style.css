@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #123;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+    height: 100px;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    transition: 1.5s;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 19px;
+}
+.link a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    height: 70vh;
+}
+section:nth-child(even){
+    background-color: burlywood;
+}
+.scroll{
+    position: absolute;
+}
